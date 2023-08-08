@@ -1,0 +1,106 @@
+/* Styling for the Search Form. */
+.search-form {
+  background: #333;
+  padding: 10px 40px;
+  border-radius: 10px;
+  height: 150px;
+  display: flex; /* We want to push the content to the middle. */
+  flex-direction: column;
+  justify-content: center;
+  color: #fff;
+}
+
+/* To get some between below the heading (above the input) */
+.search-form form {
+  margin: 10px 0;
+}
+
+/* Input field of the Search Form. */
+.search-form input {
+  width: 70%;
+}
+
+/* The place showing how many requests (out of 60) are still available */
+.search-form form .rate {
+  padding-top: 1rem;
+}
+
+/*
+Applies to both the input and the button.
+An outline is a line drawn outside the element's border.
+*/
+.search-form input,
+.search-form button {
+  outline: none;
+  padding: 14px;
+  border-radius: 7px;
+  border: none;
+}
+
+.search-form button {
+  padding: 14px 40px;
+  background: royalblue;
+  cursor: pointer;
+  margin: 0 8px;
+  color: #f5f5f5;
+}
+
+/*Apply a background color to the .search-results*/
+.search-results {
+  background-color: #e5e5e5;
+  padding: 10px 30px;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Styling applied to each user in the resulting list generated from the search. */
+.user {
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: #444 solid 1px;
+}
+
+/* The container of the user avatar. */
+.user .image {
+  width: 20%;
+}
+
+/* The avatar itself */
+.user .image img {
+  width: 100%;
+  border-radius: 10%;
+}
+
+.user-info * {
+  display: block;
+  padding: 0 10px; /*To push away from the image.*/
+}
+
+/* The perPage options (on the Left-Hand Side): [30, 50, 100] */
+.more-options {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-options select,
+.pagination button {
+  outline: none;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Each button of the pagination (on the Right-Hand Side) */
+.pagination button {
+  background-color: #333;
+  color: white;
+  margin: 0 3px;
+  cursor: pointer;
+  min-width: 26px;
+}

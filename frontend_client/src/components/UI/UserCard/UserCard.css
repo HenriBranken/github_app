@@ -1,0 +1,39 @@
+/* Container of the Avatar */
+.user .image {
+  width: 25%;
+  margin-right: 15px;
+}
+
+/* The avatar itself. */
+.user .image img {
+  border-radius: 10%;
+}
+
+/* The Container containing the Name, ID, GitHub Profile, User's Page */
+.user .user-info {
+  display: inline-block;
+  line-height: 2;
+}
+
+/* Color for links that navigate outside of the App. */
+.user .user-info a.outside {
+  color: #6cc644;
+  font-weight: bold;
+}
+
+/* Color for visited links that navigate outside of the App */
+.user .user-info a.outside:visited {
+  color: crimson;
+  font-weight: bold;
+}
+
+/* Color for Link that navigates to one of App's Routes */
+.user .user-info a.inside {
+  color: royalblue;
+  font-weight: bold;
+}
+
+/* The Username */
+.user .user-info h2 {
+  font-weight: bolder;
+}
