@@ -162,6 +162,7 @@ Here is some sample data:
 The url `https://localhost:3000` should take you to the Home page of the app. You will notice that this page features a Search engine. More specifically, it allows you to search for GitHub users by `username`. Let's say for argument's sake that your search term is `"sandra"`. You should now see a list of GitHub users whose `username` contains `"sandra"`.
 
 Here is an image illustrating the search results:
+
 <img src="./example.png" width=450px />
 
 For each user, there is a link <a href="#">GitHub Profile</a> that will take you to the GitHub profile for that specific user. Secondly, <a href="#">User's Page</a> will give you a more granular view of the selected user.
