@@ -22,6 +22,14 @@ This is a fullstack app that searches for GitHub members. Secondly, after select
 
 All the search-and-fetch functionality is achieved via the GitHub API: `https://api.github.com/`. In this project we only concern ourselves with publicly accessible API endpoints.
 
+This is one of my first projects using both **React** and **Express** to create a Fullstack application. As such, it required a clear understanding of concepts related to:
+
+1. Express
+2. Restful APIs
+3. Fetch API (or Axios)
+4. React
+5. JavaScript
+
 <a id="installation"></a>
 
 ## Installation
